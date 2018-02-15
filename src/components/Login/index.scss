@@ -1,0 +1,24 @@
+.login-form {
+  text-align: center;
+}
+
+.login-toolbar {
+  position: relative;
+}
+.login-button {
+  margin-top: 24px;
+  height: 44px;
+}
+.login-textfield {
+  width: 90%;
+}
+.login-title {
+  margin: 0 auto;
+}
+.login-errorMessage {
+  color: red;
+}
+
+.mdc-text-field:not(.mdc-text-field--upgraded):not(.mdc-text-field--textarea) .mdc-text-field__input {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}

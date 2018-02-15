@@ -1,0 +1,114 @@
+.details-textfield {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.details-actions {
+}
+
+.back-button__link {
+  color: #2ecc6e;
+  text-decoration: none;
+}
+.details-button {
+}
+
+.back-button__link > svg {
+  -webkit-transform:rotate(90deg);
+  transform:rotate(90deg);
+  width:44px;
+  height:44px;
+  margin-top:-2px;
+  margin-right:5px;
+}
+.photos-item {
+  margin: 9px;
+}
+.places-details-toolbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.details-footer {
+  display: flex;
+  margin-top: 20px;
+  padding: 20px 0;
+  -webkit-box-pack: justify;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.Select-control {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.Select--multi .Select-value {
+  background-color: #1dce6c;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.Select--multi a.Select-value-label {
+  color: #fff;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.Select--multi .Select-value-icon {
+  border-right: none;
+}
+.Select-menu-outer {
+  border-radius: 2px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,.25);
+  border: none;
+  margin-top: 5px;
+}
+.Select-option {
+  display: inline-block;
+}
+
+.react-fine-uploader-gallery-dropzone {
+  border: 0;
+}
+
+.react-fine-uploader-gallery-nodrop-container, .react-fine-uploader-gallery-dropzone {
+  background: transparent;
+}
+
+.react-fine-uploader-gallery-file-input-container {
+  background: transparent;
+  border: 1px dashed #d2d4d3;
+  color: #d2d4d3;
+  margin-left: 0;
+  width: 130px;
+  height: 110px;
+}
+
+.react-fine-uploader-gallery-file-input-container:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+.react-fine-uploader-gallery-file-input-content {
+  line-height: 94px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.react-fine-uploader-gallery-file {
+  border-radius: 0;
+  margin: 0 10px 10px 0;
+  box-shadow: none;
+}
+
+.mdc-checkbox .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background {
+  background-color: #1dce6c;
+  border-color: #1dce6c;
+}
+.mdc-checkbox::before, .mdc-checkbox::after {
+  background-color: #bdf9d8;
+}
+.mdc-checkbox .mdc-checkbox__background::before {
+  background-color: #bdf9d8;
+}
